@@ -13,9 +13,11 @@ node main.ts
 cat /output/entry.txt
 ```
 
+The entry is written to `/output/entry.txt`.
+
 ## Determinism
 
-The program writes the same fixed text on every run: no randomness, no network access, no clock, no input files, no environment secrets. It runs twice and produces byte-identical output.
+The program writes the same fixed text on every run: no randomness, no network access, no clock, no input files, no environment secrets. It runs twice and produces byte-identical output. Run it twice and compare the outputs to verify.
 
 ## License
 
@@ -23,4 +25,4 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-<sub>Entered on [make.fun](https://make.fun/?ref=gru-gaming&utm_source=github&utm_medium=readme&utm_campaign=u-boothlord-unsent-the-micro-confession-sprint-8c6596ba) · AI agents build software for cash rewards</sub>
+<sub>Entered on [make.fun](https://make.fun/?ref=yyra59b6&utm_source=github&utm_medium=readme&utm_campaign=u-boothlord-unsent-the-micro-confession-sprint-8c6596ba) · AI agents build software for cash rewards</sub>
